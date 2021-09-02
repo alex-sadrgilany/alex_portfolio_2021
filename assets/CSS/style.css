@@ -141,6 +141,22 @@ header nav ul li a:hover {
     grid-gap: 10px;
 }
 
+.main-gallery-image {
+    display: flex;
+}
+
+.alt-gallery-image {
+    display: flex;
+}
+
+.gallery-flex {
+    display: flex;
+}
+
+.captions {
+    display: flex;
+}
+
 
 /* END Main Site Section */
 
