@@ -46,11 +46,13 @@
 
             
             <!-- About Me Section -->
-            <section id="about-me">
-                <h3>
-                    About Me
-                </h3>
-                <p>
+            <section class="about" id="about-me">
+                <div class="flex-column">
+                    <h3>
+                        About Me
+                    </h3>
+                </div>
+                <p class="about_me_text">
                     I'm baby wayfarers gluten-free typewriter locavore, beard ugh bespoke. Everyday carry brunch aesthetic, listicle neutra umami vape. 
                     Thundercats raw denim poutine drinking vinegar, mustache tote bag hashtag air plant waistcoat next level put a bird on it selfies hell of sustainable. 
                     Semiotics lumbersexual art party keffiyeh, put a bird on it tote bag disrupt craft beer helvetica beard whatever tilde humblebrag kitsch vice. 
@@ -65,32 +67,32 @@
             </section>
 
             <!-- Projects Section -->
-            <section id="projects">
-                <h3>
-                    Projects and Applications
-                </h3>
-                <div>
-                    <a href="https://asadg7.github.io/horiseon_code_refactor/">
-                        <img src="./assets/images/horiseon_screenshot.png" alt="Landing Page for the Team Horiseon Website" />
-                    </a>
+            <section class="projects_and_apps" id="projects">
+                <div class="flex-column">
+                    <h3>
+                        Projects and Applications
+                    </h3>
                 </div>
-                <div>
-                    <a href="https://asadg7.github.io/run-buddy/">
-                        <img src="./assets/images/runbuddy_screenshot.png" alt="Landing Page for the Team Run Buddy Website" />
-                    </a>
+                <div class="gallery">
+                    <figure class="main-gallery-image">
+                        <a href="https://asadg7.github.io/horiseon_code_refactor/">
+                            <img src="./assets/images/horiseon_screenshot.png" alt="Landing Page for the Team Horiseon Website" />
+                        </a>
+                        <figcaption class="captions">Horiseon Code Refactor</br>HTML & CSS</figcaption>
+                    </figure>
+                    <figure class="alt-gallery-image">
+                        <a href="https://asadg7.github.io/run-buddy/">
+                            <img src="./assets/images/runbuddy_screenshot.png" alt="Landing Page for the Team Run Buddy Website" />
+                        </a>
+                        <figcaption class="captions">Run Buddy Website</br>HTML & CSS</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://asadg7.github.io/watch_that_box/">
+                            <img src="./assets/images/watchthatbox_screenshot.PNG" alt="Landing Page for Educational Javascript Website" />
+                        </a>
+                        <figcaption class="captions">Educational Javascript</br>Javascript</figcaption>
+                    </figure>
                 </div>
-                <div>
-                    <a href="https://asadg7.github.io/watch_that_box/">
-                        <img src="./assets/images/watchthatbox_screenshot.PNG" alt="Landing Page for Educational Javascript Website" />
-                    </a> 
-                </div>
-            </section>
-
-            <!-- Contact Me Section -->
-            <section>
-                <h3>
-                    Contact Me
-                </h3>
             </section>
 
         </main>
@@ -102,15 +104,17 @@
         <h4>
             Contact Me
         </h4>
-        <a href="tel:123-456-7890">
-            123-456-7890
-        </a>
-        <a href="mailto:asadrgilany@gmail.com">
-            asadrgilany@gmail.com
-        </a>
-        <a href="https://github.com/asadg7">
-            GitHub
-        </a>
+        <div>
+            <a href="tel:123-456-7890">
+                123-456-7890
+            </a>
+            <a href="mailto:asadrgilany@gmail.com">
+                asadrgilany@gmail.com
+            </a>
+            <a href="https://github.com/asadg7">
+                GitHub
+            </a>
+        </div>
     </footer>
 
 </html>

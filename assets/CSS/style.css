@@ -1,10 +1,10 @@
-/*
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-*/
+
 
 /* Header and Navigation */
 
@@ -14,18 +14,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
+   
 }
 
 header h1 {
     color: #a4b494;
+    font-weight: bold;
+    margin: 0;
 }
 
 header nav ul {
@@ -36,14 +31,16 @@ header nav ul {
     list-style: none;
 }
 
-header a {
+header nav ul li a {
+    margin: 0 30px;
+    font-size: 1.55vw;
+    color: #ee6352;
     text-decoration: none;
 }
 
-header nav ul li a {
-    padding: 10px 15px;
-    font-size: 30px;
-    color: #ee6352;
+header nav ul li a:hover {
+    background: #a4b494;
+    border-radius: 15px;
 }
 
 /* END Header and Navigation */
@@ -55,9 +52,39 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* END Hero Section */
+
+/* Main Site Section */
+
+.flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 30%;
+}
+
+.large-image img {
+    width: 30%;
+    height: 30%;
+
+}
+
+.about, .projects_and_apps {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 70%;
+}
+
+.projects_and_apps div img{
+    width: 15%;
+    height: 15%;
+}
+
+/* END Main Site Section */
 
 /* Footer Section */
 
@@ -65,15 +92,21 @@ footer {
     background: #1a281f;
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer a {
     text-decoration: none;
     font-size: 30px;
-    padding: 10px 15px;
+    padding: 10px 60px;
     color: #ee6352;
+}
+
+footer a:hover {
+    background: #a4b494;
+    border-radius: 15px;
 }
 
 footer h4 {
