@@ -1,3 +1,5 @@
+/* Global Styles Applying to entire Site */
+
 :root {
     --color-one: #ee6352;
     --color-two: #a4b494;
@@ -10,7 +12,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #a6a6a6;
+    color: #c1e2ed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+/* END Global Styles Applying to entire Site */
 
 /* Header and Navigation */
 
@@ -82,7 +90,7 @@ header nav ul li a:hover {
 }
 
 .subtitle h2 {
-    color: var(--color-two);
+    color: var(--color-one);
     font-size: 1.7vw;
     text-shadow: 5px 0px 3px black;
     border: 6px solid black;
@@ -120,6 +128,12 @@ header nav ul li a:hover {
     display: flex;
     width: 70%;
     align-items: center;
+}
+
+.about-text {
+    line-height: 1.5vw;
+    letter-spacing: 1px;
+    font-size: 1vw;
 }
 
 .gallery {
