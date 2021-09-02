@@ -192,7 +192,6 @@ footer div ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
@@ -202,6 +201,11 @@ footer div ul li a {
     font-size: 1.65vw;
     color: var(--color-one);
     padding: 7px 7px;
+}
+
+footer div ul li a img {
+    height: 30px;
+    width: 30px;
 }
 
 footer div ul li a:hover {
