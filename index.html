@@ -4,6 +4,7 @@
     <!-- Head HTML Setup -->
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!-- Linking to the CSS Stylesheet -->
         <link rel="stylesheet" href="./assets/CSS/style.css">
         <!-- Adding a Favicon -->
@@ -39,9 +40,11 @@
 
             <!-- Hero -->
             <section class="hero">
-                <img src="./assets/images/placeholder_image.png" alt="headshot of Alex smiling" />
+                <div class="hero-headshot">
+                    <img src="./assets/images/placeholder_image.png" alt="headshot of Alex smiling" />
+                </div>
                 <div class="subtitle">
-                    <h2>
+                    <h2 class="subtitle-text">
                         Full Stack Web Developer
                     </h2>
                 </div>
@@ -71,43 +74,55 @@
 
             <!-- Projects Section -->
             <section class="work" id="projects">
-                
+
                 <div class="flex-column">
                     <h3 class="section-title">
                         Projects and </br>
                         Applications
                     </h3>
                 </div>
-                
+
                 <div class="gallery">
                     
                     <figure class="main-gallery-image">
-                        <div class="gallery-flex">
                             <a href="https://asadg7.github.io/horiseon_code_refactor/">
                                 <img src="./assets/images/horiseon_screenshot.png" alt="Landing Page for the Team Horiseon Website" />
                             </a>
-                        </div>
-                        <figcaption class="captions">Horiseon Code Refactor</br>HTML & CSS</figcaption>
+                            <figcaption class="captions">
+                                Horiseon Code Refactor</br>
+                                <span class="codes">
+                                    HTML & CSS
+                                </span>
+                            </figcaption>
                     </figure>
                     
                     <figure class="alt-gallery-image">
-                        <div class="gallery-flex-2">
+                        
+                        <div class="gallery-image-2">
                             <a href="https://asadg7.github.io/run-buddy/">
                                 <img src="./assets/images/runbuddy_screenshot.png" alt="Landing Page for the Team Run Buddy Website" />
                             </a>
+                            <figcaption class="captions">
+                                Run Buddy Website</br>
+                                <span class="codes">
+                                    HTML & CSS
+                                </span>
+                            </figcaption>
                         </div>
-                        <figcaption class="captions">Run Buddy Website</br>HTML & CSS</figcaption>
-                    </figure>
-                    
-                    <figure class="alt-gallery-image">
-                        <div class="gallery-flex-2">
+
+                        <div class="gallery-image-3">
                             <a href="https://asadg7.github.io/watch_that_box/">
                                 <img src="./assets/images/watchthatbox_screenshot.PNG" alt="Landing Page for Educational Javascript Website" />
                             </a>
+                            <figcaption class="captions">
+                                Educational Javascript</br>
+                                <span class="codes">
+                                    Javascript
+                                </span>
+                            </figcaption>
                         </div>
-                        <figcaption class="captions">Educational Javascript</br>Javascript</figcaption>
                     </figure>
-                
+
                 </div>
             
             </section>
