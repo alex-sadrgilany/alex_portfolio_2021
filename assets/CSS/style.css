@@ -75,6 +75,7 @@ header nav ul li a:hover {
     color: #ee6352;
     font-size: 1.6vw;
     margin: 0 0 0 8%;
+    width: 30%;
 }
 
 .gallery {
@@ -82,6 +83,11 @@ header nav ul li a:hover {
     grid-gap: 10px;
     grid-template-columns: auto;
     grid-template-rows: auto;
+}
+
+.about-text,
+.gallery {
+    width: 70%;
 }
 
 /* END Main Site Section */
