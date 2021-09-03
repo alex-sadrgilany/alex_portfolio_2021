@@ -28,7 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Description 
 
-In making this website for my portfolio, I had to incorporate a lot of elements of CSS. Flexboxes were used a plenty, along with media queries to make the page responsive to different viewports. I tried to make the HTML as semantic as possible while still achieving my desired goal of appearance. The photo is a placeholder until a proper headshot is taken. The styles will most certainly change over time as I add and tinker with it as well. 
+In making this website for my portfolio, I had to incorporate a lot of elements of CSS. Flexboxes were used a plenty, along with media queries to make the page responsive to different viewports. I tried to make the HTML as semantic as possible while still achieving my desired goal of appearance. The photo is a placeholder until a proper headshot is taken. The styles will most certainly change over time as I add and tinker with it as well. I also left space to complete my grid of projects as I complete more.
 
 ### Deployed Webpage
 
