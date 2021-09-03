@@ -137,6 +137,7 @@ header nav ul li a:hover {
 .about-text,
 .gallery {
     display: flex;
+    flex-wrap: wrap;
     width: 70%;
 }
 
@@ -322,8 +323,8 @@ footer div ul li a:hover {
     .hero-subtitle {
         font-size: 25px;
     }
-    footer div {
-        justify-content: none;
+    footer div ul li a {
+        font-size: 17px;
     }
 }
 
