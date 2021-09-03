@@ -83,25 +83,21 @@ header nav ul li a:hover {
 }
 
 .hero-headshot {
+    flex-direction: row;
     width: 60%;
     margin: 50px 0 auto 0;
 }
 
-.subtitle {
-    width: 25%;
-    margin: auto 0 50px 0;
-    text-align: right;
-}
-
-
-
-.hero img {
-    height: 150px;
-    width: 150px;
+.hero-headshot img {
+    height: 250px;
+    width: 250px;
     border: 8px solid var(--color-four);
 }
 
-.subtitle h2 {
+.subtitle {
+    flex-direction: row;
+    margin: auto 0 50px 0;
+    text-align: right;
     color: var(--color-one);
     font-size: 40px;
     text-shadow: 5px 0px 3px black;
@@ -164,8 +160,7 @@ header nav ul li a:hover {
     flex-direction: column;
 }
 
-.gallery-image-2,
-.gallery-image-3 {
+.gallery-image-stack {
     position: relative;
 }
 
@@ -264,6 +259,13 @@ footer div ul li a:hover {
     header nav ul li a {
         font-size: 20px;
     }
+    .hero-headshot {
+        display: flex;
+        justify-content: center;
+    }
+    .subtitle h2 {
+        font-size: 30px;
+    }
     
     .flex-column {
         width: 100%;
@@ -273,37 +275,51 @@ footer div ul li a:hover {
         text-align: center;
         margin: auto;
         border-bottom: 3px dashed black;
+        font-size: 30px;
     }
     .about-text {
         width: 100%;
-        padding: 25px 15px 0 15px;
+        margin: 25px 15px 0 15px;
         text-align: center;
         line-height: normal;
     }
     .gallery {
-        width: 100%;
+        display: flex;
+        justify-content: center;
         padding-top: 25px;
     }
     .main-gallery-image img {
-        width: 400px;
+        width: 450px;
         height: 250px;
-        align-items: center;
     }
     .captions {
-        position: relative;
+        font-size: 15px;
     }
-         
-    
-   
-}
+    .codes {
+        font-size: 12px;
+    }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-
+    footer h4, footer div {
+        text-align: center;
+        width: 100%;
+    }
+    footer h4 {
+        margin-bottom: 10px;
+    }
+    footer div ul li a {
+        font-size: 20px;
+    } 
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    .main-gallery-image {
+        width: 100%;
+    }
+    .main-gallery-image img {
+        width: 347px;
+        height: 272px;
+    }
 
 }
 
