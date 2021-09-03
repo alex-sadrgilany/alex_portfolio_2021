@@ -26,13 +26,24 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+### Description 
+
+In making this website for my portfolio, I had to incorporate a lot of elements of CSS. Flexboxes were used a plenty, along with media queries to make the page responsive to different viewports. I tried to make the HTML as semantic as possible while still achieving my desired goal of appearance. The photo is a placeholder until a proper headshot is taken. The styles will most certainly change over time as I add and tinker with it as well. 
+
 ### Deployed Webpage
 
 https://asadg7.github.io/alex_portfolio_2021/
 
 ### Screenshots
 
-![Screenshot of Deployed Site on Desktop](./assets/images/desktop_screenshot.png)
+Screenshot of Website Deployed on Desktop Viewport
+![](./assets/images/desktop_screenshot.png)
+
+Screenshot of Website Deployed on iPad Viewport
+![](./assets/images/ipad_screenshot.png)
+
+Screenshot of Website Deployed on iphoneX Viewport
+![](./assets/images/iphonex_screenshot.png)
 
 ### License
 
