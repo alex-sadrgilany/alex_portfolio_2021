@@ -37,12 +37,15 @@ https://asadg7.github.io/alex_portfolio_2021/
 ### Screenshots
 
 Screenshot of Website Deployed on Desktop Viewport
+
 ![](./assets/images/desktop_screenshot.png)
 
 Screenshot of Website Deployed on iPad Viewport
+
 ![](./assets/images/ipad_screenshot.png)
 
 Screenshot of Website Deployed on iphoneX Viewport
+
 ![](./assets/images/iphonex_screenshot.png)
 
 ### License
